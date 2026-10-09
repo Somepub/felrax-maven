@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.somepub",
+    "module": "felrax-android-camera",
+    "version": "0.1.0-beta1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-camera-0.1.0-beta1.aar",
+          "url": "felrax-android-camera-0.1.0-beta1.aar",
+          "size": 45772,
+          "sha512": "fe653a215059343553f457f708a1335d92459651e99ade113b222292465acecc8b0aae9cf50d33aefc40aeaf5c37a8027fdeb9b060ebd3acd9ac091e2f351141",
+          "sha256": "bb0157c63f8ce960b7e3c217e3a5c3817383e04a580f52e709fe35f56be2eb35",
+          "sha1": "0de4df6cfbbf7fac5029dc131994bbcca8be4862",
+          "md5": "9ee941a24099f72b5de3f678fbd65f02"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-code-scanner",
+          "version": {
+            "requires": "16.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-camera-0.1.0-beta1.aar",
+          "url": "felrax-android-camera-0.1.0-beta1.aar",
+          "size": 45772,
+          "sha512": "fe653a215059343553f457f708a1335d92459651e99ade113b222292465acecc8b0aae9cf50d33aefc40aeaf5c37a8027fdeb9b060ebd3acd9ac091e2f351141",
+          "sha256": "bb0157c63f8ce960b7e3c217e3a5c3817383e04a580f52e709fe35f56be2eb35",
+          "sha1": "0de4df6cfbbf7fac5029dc131994bbcca8be4862",
+          "md5": "9ee941a24099f72b5de3f678fbd65f02"
+        }
+      ]
+    }
+  ]
+}

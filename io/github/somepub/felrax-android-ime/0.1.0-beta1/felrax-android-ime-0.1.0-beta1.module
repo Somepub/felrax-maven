@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.somepub",
+    "module": "felrax-android-ime",
+    "version": "0.1.0-beta1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-ime-0.1.0-beta1.aar",
+          "url": "felrax-android-ime-0.1.0-beta1.aar",
+          "size": 6945,
+          "sha512": "3b7c771dfed2e7ef6bfd0762abfc060720fc0c93177be4a8e607c4ef02f8f236f58301f79e93063bfb7fc9e4c076224b43105e6b6befbb087cb9fd511a2145a3",
+          "sha256": "0d555cba7a9179d661d98d1757bf9412d4b4d00baad199ac8919b9293e61f4e2",
+          "sha1": "9c95ea06becf7292a67543d55ae8a8a20ebfd0ae",
+          "md5": "48c0663428d5de68b836b5f5894e027a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-ime-0.1.0-beta1.aar",
+          "url": "felrax-android-ime-0.1.0-beta1.aar",
+          "size": 6945,
+          "sha512": "3b7c771dfed2e7ef6bfd0762abfc060720fc0c93177be4a8e607c4ef02f8f236f58301f79e93063bfb7fc9e4c076224b43105e6b6befbb087cb9fd511a2145a3",
+          "sha256": "0d555cba7a9179d661d98d1757bf9412d4b4d00baad199ac8919b9293e61f4e2",
+          "sha1": "9c95ea06becf7292a67543d55ae8a8a20ebfd0ae",
+          "md5": "48c0663428d5de68b836b5f5894e027a"
+        }
+      ]
+    }
+  ]
+}

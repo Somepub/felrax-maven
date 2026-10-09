@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.somepub",
+    "module": "felrax-android-sdk",
+    "version": "0.1.0-beta1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.somepub",
+          "module": "felrax-android-native",
+          "version": {
+            "requires": "0.1.0-beta1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-sdk-0.1.0-beta1.aar",
+          "url": "felrax-android-sdk-0.1.0-beta1.aar",
+          "size": 789,
+          "sha512": "aded5335657aaa637e012f8684c12e63c874273bf0b35ed8d426e7cec373fadb67850cb788808df85a3e61d6c746c1f56e6bba77983950232981ed834d4599f9",
+          "sha256": "bf1351029271d8556b67268a98afcc2e919b4d0b378f54e24080f9c33b767bd7",
+          "sha1": "ee9109ff25ce24f00a38d06b0c6953827dcc72b6",
+          "md5": "03ea789b26e25bcf17cfaa7f14c10375"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.somepub",
+          "module": "felrax-android-native",
+          "version": {
+            "requires": "0.1.0-beta1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-sdk-0.1.0-beta1.aar",
+          "url": "felrax-android-sdk-0.1.0-beta1.aar",
+          "size": 789,
+          "sha512": "aded5335657aaa637e012f8684c12e63c874273bf0b35ed8d426e7cec373fadb67850cb788808df85a3e61d6c746c1f56e6bba77983950232981ed834d4599f9",
+          "sha256": "bf1351029271d8556b67268a98afcc2e919b4d0b378f54e24080f9c33b767bd7",
+          "sha1": "ee9109ff25ce24f00a38d06b0c6953827dcc72b6",
+          "md5": "03ea789b26e25bcf17cfaa7f14c10375"
+        }
+      ]
+    }
+  ]
+}

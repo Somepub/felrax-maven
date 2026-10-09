@@ -1,0 +1,27 @@
+Felrax Proprietary SDK License
+Copyright (c) 2026 Felrax. All rights reserved.
+
+Subject to these terms, Felrax grants you a non-exclusive, non-transferable
+license to download and use the published Felrax SDK solely to develop,
+build, and distribute applications that integrate with Felrax. You may
+redistribute the unmodified Felrax runtime components only as part of such
+applications and only to the extent needed for those applications to run.
+
+You may not sell, sublicense, publish, or distribute the Felrax SDK as a
+standalone product; remove copyright or license notices; or represent Felrax
+code as your own. You may not modify the SDK or reverse engineer it except
+where applicable law expressly permits doing so despite this restriction.
+
+This license does not grant access to Felrax source code, trademarks, or
+patents. Felrax retains all rights not expressly granted here.
+
+The SDK is provided "AS IS", without warranties of any kind, to the extent
+permitted by applicable law. Felrax is not liable for damages arising from
+use of the SDK to the extent permitted by applicable law.
+
+This license terminates if you violate its terms. On termination, stop using
+and distributing the SDK. Copies already distributed as part of applications
+before termination remain subject to these terms.
+
+For permissions beyond these terms, contact the Felrax project owner.
+

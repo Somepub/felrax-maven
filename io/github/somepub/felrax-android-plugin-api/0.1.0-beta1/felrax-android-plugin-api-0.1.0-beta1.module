@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.somepub",
+    "module": "felrax-android-plugin-api",
+    "version": "0.1.0-beta1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-plugin-api-0.1.0-beta1.aar",
+          "url": "felrax-android-plugin-api-0.1.0-beta1.aar",
+          "size": 390582,
+          "sha512": "fc6c0f0a4c72a5fe6b9034102d835004a2b7dab9d72a329f7b3bf1a54b7746d79ad9a713b45526e6379457225cc0728e3bf4a1721e8463e2b71729c344ffa7ab",
+          "sha256": "03a1e5637d664ff13efecdfd5c297ff334e99d257631e7c105c91c418ba71004",
+          "sha1": "22d03bb727b647ecfa2cfd2bc61af536ac4155e4",
+          "md5": "f9e6796c189708af8ef68fcaa767d78c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "4.36.2"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf-lite",
+          "version": {
+            "requires": "1.84.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub",
+          "version": {
+            "requires": "1.84.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-okhttp",
+          "version": {
+            "requires": "1.84.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-plugin-api-0.1.0-beta1.aar",
+          "url": "felrax-android-plugin-api-0.1.0-beta1.aar",
+          "size": 390582,
+          "sha512": "fc6c0f0a4c72a5fe6b9034102d835004a2b7dab9d72a329f7b3bf1a54b7746d79ad9a713b45526e6379457225cc0728e3bf4a1721e8463e2b71729c344ffa7ab",
+          "sha256": "03a1e5637d664ff13efecdfd5c297ff334e99d257631e7c105c91c418ba71004",
+          "sha1": "22d03bb727b647ecfa2cfd2bc61af536ac4155e4",
+          "md5": "f9e6796c189708af8ef68fcaa767d78c"
+        }
+      ]
+    }
+  ]
+}

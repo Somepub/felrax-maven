@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.somepub",
+    "module": "felrax-android-native",
+    "version": "0.1.0-beta1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.somepub",
+          "module": "felrax-android-runtime",
+          "version": {
+            "requires": "0.1.0-beta1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-native-0.1.0-beta1.aar",
+          "url": "felrax-android-native-0.1.0-beta1.aar",
+          "size": 47051,
+          "sha512": "42629a2ad496d6ce1e5fdfa777fd9d8ec2d6a014e55a8437b858448db41cc9f9664375c6c07ca0b57e0bd075f12a81bca644886dcc0e57d8607a0edd0ec8342c",
+          "sha256": "dd4e28380fdc22050b747421ab9d7b1488bf13a843ea7b796e12165d8f915e73",
+          "sha1": "e647e72e6ea010a26b0be028b6eac26bb75be247",
+          "md5": "0ee8717b5f8cd610df644bbaecf66354"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.somepub",
+          "module": "felrax-android-camera",
+          "version": {
+            "requires": "0.1.0-beta1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.documentfile",
+          "module": "documentfile",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.github.somepub",
+          "module": "felrax-android-runtime",
+          "version": {
+            "requires": "0.1.0-beta1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "felrax-android-native-0.1.0-beta1.aar",
+          "url": "felrax-android-native-0.1.0-beta1.aar",
+          "size": 47051,
+          "sha512": "42629a2ad496d6ce1e5fdfa777fd9d8ec2d6a014e55a8437b858448db41cc9f9664375c6c07ca0b57e0bd075f12a81bca644886dcc0e57d8607a0edd0ec8342c",
+          "sha256": "dd4e28380fdc22050b747421ab9d7b1488bf13a843ea7b796e12165d8f915e73",
+          "sha1": "e647e72e6ea010a26b0be028b6eac26bb75be247",
+          "md5": "0ee8717b5f8cd610df644bbaecf66354"
+        }
+      ]
+    }
+  ]
+}
